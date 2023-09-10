@@ -1,0 +1,1904 @@
+/* ========================= AWAL PAGES PLAYER VS COM =============================== */
+.containerplayervscom {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.playerVsComContainer {
+  width: 70% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.playerChoiceContainer {
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.resultContainer {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choices {
+  width: 31%;
+  height: 25%;
+  margin-top: 0.7rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comChoices {
+  width: 31% !important;
+  height: 23% !important;
+  margin-top: 0.9rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.choiced {
+  width: 31%;
+  height: 25%;
+  margin-top: 2rem;
+  background-color: #888;
+  border-radius: 2rem;
+  transition: 0.1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.player1.choices:hover {
+  background-color: #ffb548;
+  border-radius: 2rem;
+  transition: 0.1s ease-in-out;
+  transform: translateY(-10%);
+}
+
+.rock {
+  width: 70%;
+  height: 65%;
+}
+
+.paper {
+  width: 70%;
+  height: 80%;
+}
+
+.scissors {
+  width: 70%;
+  height: 90%;
+}
+
+.refreshGame {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.refreshButton:hover {
+  transition: 100ms ease-in-out;
+  transform: translateY(-10%);
+  cursor: pointer;
+}
+
+.refreshButton {
+  width: 23%;
+  height: 35%;
+}
+
+.resultGame {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.playerTitle.title {
+  text-transform: uppercase !important;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.result.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7rem;
+  color: #ffffff;
+}
+/* ========================== AKHIR PAGES PLAYER VS COM =========== */
+
+/* ========================== AWAL PAGES LOBBY GAME =========== */
+.bigContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-container {
+  margin-top: 5% !important;
+  border-radius: 1.5rem;
+  width: 55%;
+  height: 80%;
+  background-color: #ffffff;
+  box-shadow: 0 0.4rem 0.5rem 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  margin-right: 0.5rem;
+}
+
+.pvcGame {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+}
+
+.playVCom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 30%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+  background-color: #ffb548;
+}
+
+.btnVCom {
+  line-height: 0.8rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.12rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.btnVCom:hover {
+  color: #333;
+}
+
+.containerRoom {
+  border-top: 2px solid #ffb548 !important;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 51.8vw;
+  height: 3.8vw;
+  display: flex;
+  flex-direction: row !important;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.input-group {
+  margin-top: 0.5rem;
+  margin-left: 15rem;
+}
+
+.setFilter {
+  transform: translateZ(200%) !important;
+  pointer-events: none !important;
+  background: white !important;
+}
+
+.roomContainer {
+  width: 100%;
+  height: 40%;
+  padding: 0.8rem;
+}
+
+.dataCourier {
+  width: 30% !important;
+  height: 20% !important;
+  background-color: #302e2e;
+  margin-top: 0.5rem !important;
+  margin-right: 0.3rem;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  padding-left: 1rem;
+  padding-right: 0.3rem;
+  justify-content: start;
+  align-items: center;
+  margin-left: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.dataCourier:hover {
+  background-color: #000000;
+}
+
+.courierText {
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.courierText:hover {
+  color: #ffb548;
+}
+
+.courierText.closed:hover {
+  color: #ff0000;
+}
+
+.courierText.open:hover {
+  color: #33ff40;
+}
+
+.activePanel {
+  width: 20%;
+  height: 100%;
+  margin-top: 0.4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.paginate {
+  color: #000000;
+  letter-spacing: 0.1rem;
+}
+
+.paginate.previousClick {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.paginate.nextClick {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.paginate:hover {
+  color: #ffb548;
+  text-decoration: double !important;
+}
+
+.right-container {
+  margin-top: 5% !important;
+  border-radius: 1.5rem;
+  width: 35%;
+  height: 80%;
+  background-color: #ffffff;
+  box-shadow: 0 0.4rem 0.5rem 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  margin-left: 0.5rem;
+  display: flex !important;
+  align-items: center !important;
+  position: relative !important;
+  overflow: hidden !important;
+  flex-direction: column;
+}
+
+.lower-right-container-input {
+  width: 100% !important;
+  height: 50% !important;
+  transition: all 0.6s ease-in-out;
+  z-index: 0;
+  transform: translateY(-100%);
+}
+
+.notUpdated.lower-right-container-input {
+  z-index: 1;
+  transform: translateX(150%);
+  opacity: 0;
+}
+
+.commandInput {
+  height: 5% !important;
+  margin-top: 0 !important;
+  border-top: 2px solid #ffb548 !important;
+}
+
+.formBiodata.form {
+  justify-content: start;
+  align-items: flex-start;
+  margin-top: 0 !important;
+  padding-left: 1rem !important;
+}
+
+.inputData {
+  background-color: #eee;
+  height: 12%;
+  border: none;
+  padding: 0.3rem 1rem;
+  margin: 0.7rem;
+  width: 80%;
+}
+
+.updateBiodata {
+  height: 5vh !important;
+}
+
+.labelInput {
+  margin-top: 0.2rem !important;
+  line-height: 0 !important;
+  margin-left: 0 !important;
+  width: 50% !important;
+}
+
+.inputBiodata.input {
+  border-radius: 0.3rem !important;
+  margin-left: 2rem !important;
+}
+
+.lower-right-container {
+  width: 100%;
+  height: 50%;
+  border-top: 2px solid #ffb548 !important;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding-left: 5.5rem;
+  margin-top: 0.5rem;
+  padding-top: 1.3rem;
+  transform: translateX(150%);
+  left: 0;
+  z-index: 1;
+}
+
+.updatedContainer.lower-right-container {
+  opacity: 1;
+  z-index: 2;
+  transform: translateX(0);
+}
+
+.biodata {
+  font-size: 1.2rem;
+  text-transform: capitalize !important;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.upper-right-container {
+  width: 100% !important;
+  height: 30% !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gameHistoryText {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.gameHistoryText:hover {
+  color: #ffb548 !important;
+}
+
+.top-upper-right-container {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rounded-circle {
+  width: 20% !important;
+  height: 60% !important;
+}
+
+.fa-pencil {
+  width: 40%;
+  color: #000000 !important;
+  height: 100% !important;
+}
+
+.editIcons {
+  background-color: #b0b3b6;
+  width: 15%;
+  border-radius: 1rem;
+  height: 60% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2rem;
+  margin-left: 8rem;
+}
+
+.editIcons.fa-pencil:hover {
+  background-color: #ffb548;
+  color: #ffffff;
+}
+a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none !important;
+  margin: 15px 0;
+  cursor: pointer;
+}
+a:hover {
+  transition: 0.2s ease-in-out;
+  color: #ffb548;
+}
+.button {
+  border-radius: 1.4rem;
+  border: 1px solid #ffb548;
+  background-color: #ffb548;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.6rem 2.5rem;
+  margin-top: 1rem;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+  transition: 80ms ease-in;
+}
+.button:active {
+  transform: scale(0.95);
+}
+.button:focus {
+  outline: none;
+}
+
+.title {
+  font-weight: bold !important;
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+  color: black !important;
+}
+
+.roomTitle.title {
+  margin-bottom: 0 !important;
+  margin-top: 0.7rem !important;
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+  font-size: 1.5rem !important;
+  line-height: 2.3rem !important;
+  text-decoration: underline !important;
+  font-family: "Fira Sans", sans-serif !important;
+}
+
+.profileTitle title {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.7rem;
+  letter-spacing: 0.03rem;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.notFound.title {
+  color: #ffb548;
+}
+
+.updateBiodata.button {
+  margin-top: 0.3rem;
+  width: 65%;
+  height: 8%;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ========================== AKHIR PAGES LOBBY GAME =========== */
+/* =========================== BEGIN LOGIN PAGE ================ */
+.loginContainer {
+  position: absolute;
+  background-color: #ffb548;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.content {
+  margin: 8%;
+  background-color: #fff;
+  padding: 4rem 1rem 4rem 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.form {
+  margin-top: 2rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2.3;
+  border-color: #00ac96 !important;
+  border-style: solid !important;
+  border-width: 0 0 1px 0 !important;
+  padding: 0px !important;
+  color: #495057;
+  height: auto;
+  border-radius: 0;
+  background-color: #fff;
+  background-clip: padding-box;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fff;
+  outline: 0;
+  box-shadow: none;
+}
+.field-holder {
+  position: relative;
+  margin-bottom: 0.9rem;
+}
+.field-holder label {
+  position: absolute;
+  pointer-events: none;
+  transform: translate(0, 23px) scale(1);
+  transform-origin: top left;
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  color: #6f81a5;
+  font-size: 16px;
+  margin-top: -0.4rem;
+  left: 0;
+}
+.field-holder:focus-within label {
+  transform: translate(0, -8px) scale(0.8);
+  color: #6348bd;
+}
+.field-holder .filled {
+  transform: translate(0, -8px) scale(0.8);
+}
+.button {
+  border-radius: 1.4rem;
+  border: 1px solid #ffb548;
+  background-color: #ffb548;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.6rem 2.5rem;
+  margin-top: 1rem;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+  transition: 80ms ease-in;
+}
+.button:active {
+  transform: scale(0.95);
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}
+.registerLink {
+  margin-top: 2rem;
+}
+.errorsMessage {
+  line-height: 0 !important;
+  font-size: 0.8rem !important;
+  font-weight: 300;
+  color: red;
+  text-transform: lowercase;
+  text-align: start !important;
+  padding: 0 0 1rem 0;
+}
+.errMsg {
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+#togglePassword {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 28%;
+  right: 4%;
+  cursor: pointer;
+}
+/* ============== END OF LOGIN PAGE ==================== */
+/* ============== BEGINNING HOME PAGE ==================== */
+/* Navbar */
+.main-page {
+  background-image: radial-gradient(
+      189.96% 61.18% at 50% 38.82%,
+      rgba(255, 181, 72, 0) 0%,
+      rgba(52, 44, 29, 0.80319) 73.22%,
+      #08090a 99.74%
+    ),
+    url(../../src/assets/images/main-bg.jpg);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.content-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.title-main {
+  display: flex;
+  font-size: 3rem;
+  font-family: "arial";
+  color: #ffffff;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.explain-main {
+  display: flex;
+  font-family: "Arial", normal;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  line-height: 0.8rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+#btn-main {
+  margin-top: 1.8rem;
+  margin-bottom: 7.5rem;
+  font-size: 1rem;
+  font-family: "open sans";
+  font-weight: 700;
+  line-height: 0.2rem;
+  align-items: center;
+  width: 10.3rem;
+  height: 2.6rem;
+  border-radius: 0.2rem;
+}
+.sc-button {
+  margin-top: 3rem;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.story-txt {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 0.8rem;
+  font-weight: 700;
+  width: 6rem;
+  height: 2.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scDown-SVG-Container {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+}
+.svgScDwon {
+  fill: #ffffff;
+}
+
+.second-page {
+  background-image: radial-gradient(
+      136.03% 54.57% at 50% 48.04%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 60.63%,
+      #080a0b 99.74%
+    ),
+    url(../../src/assets/images/the-games-bg.jpg);
+  min-height: 100vh !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding: 1.4rem;
+  margin: 0;
+  color: #ffffff;
+}
+
+.scnd-text {
+  width: 30%;
+  height: 50vh;
+  font-family: "Arial";
+  font-weight: 400;
+  margin-top: 2rem;
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.whatSpecial {
+  letter-spacing: 0.05rem;
+  line-height: 1.5rem;
+}
+
+.theGames {
+  letter-spacing: 0.2rem;
+  line-height: 1.5rem;
+}
+
+.scnd-img {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.swLeft-container .swLeft-svg {
+  width: 2rem;
+  height: 1rem;
+}
+
+.rockpaper-img {
+  width: 100%;
+  height: 100%;
+}
+
+.swRight-container .swRigth-svg {
+  width: 2rem;
+  height: 1rem;
+}
+
+.third-page {
+  background-image: radial-gradient(
+      51.1% 80.48% at 30.85% 53.65%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 19.2%,
+      rgba(4, 5, 6, 0.520671) 47.48%,
+      #080a0b 99.74%
+    ),
+    url(../../src/assets/images/features.jpg);
+  min-height: 100vh;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding-top: 4.3rem;
+}
+
+.thirdContainer {
+  width: 47%;
+  height: 70vh;
+  margin: 0;
+}
+
+.containerHeader {
+  width: 100%;
+  height: 25%;
+  margin: 0;
+  font-family: "Arial";
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.line1-header {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.line2-header {
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.containerFooter {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  padding-top: 0.5rem;
+}
+
+.svgCircle {
+  width: 12%;
+  height: 100%;
+}
+
+.subContentGames {
+  margin-top: 0.08rem;
+}
+
+.explainSubContent {
+  font-family: "Open Sans";
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  color: #ffffff;
+  width: 70%;
+  height: 11.8vh;
+}
+
+.subContenSuit {
+  width: 50%;
+  height: 7vh;
+}
+
+.subContentTBD {
+  margin-top: 0.2rem;
+  width: 50%;
+  height: 7vh;
+}
+
+.subContent {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.15rem;
+  color: #ffb548;
+  text-decoration: none;
+}
+
+.fourth-page {
+  background-image: radial-gradient(
+      33.26% 45% at 64.32% 47.1%,
+      rgba(255, 255, 255, 0) 3.36%,
+      rgba(0, 0, 0, 0) 19.22%,
+      #080a0b 99.74%
+    ),
+    url(../../src/assets/images/requirements.png);
+  min-height: 100vh;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding-top: 4rem;
+  padding-left: 5rem;
+  margin: 0rem;
+}
+
+.canMyComp {
+  width: 100%;
+  height: 5vh;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.canMyComp-txt {
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none;
+  line-height: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.specContainer {
+  width: 50%;
+  height: 70vh;
+  padding-left: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sysReq-txt {
+  width: 100%;
+  height: 20%;
+}
+
+.sysRequirement {
+  color: #ffffff;
+  margin-left: 2rem;
+  width: 60%;
+}
+
+.containerTable {
+  width: 100% !important;
+}
+
+.fifth-page {
+  background-image: radial-gradient(
+      70.52% 37.27% at 24.21% 47.47%,
+      rgba(35, 15, 15, 0) 0%,
+      rgba(0, 0, 0, 0) 51.1%,
+      #080a0b 99.74%
+    ),
+    url(../../src/assets/images/top-score-bg.png),
+    url(../../src/assets/images/top-score-bg\(2\).png);
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 2.31%;
+  padding-bottom: 5%;
+  margin: 0;
+}
+
+.topScoreContainer {
+  width: 30%;
+  height: 35vh;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.textTopScoreContainer {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.seeMoreBtn {
+  width: 50%;
+}
+
+#btnSeeMore {
+  margin-top: 1rem;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1rem;
+  width: 100%;
+  height: 80%;
+}
+
+.twitContainer {
+  width: 55%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+  color: #ffffff;
+}
+
+.evanLahti {
+  background-color: rgba(108, 108, 108, 50%);
+  width: 70%;
+  height: 30%;
+  padding: 0.1rem 0.5rem;
+  margin-left: 3.3rem;
+  border-radius: 0.51rem;
+}
+
+.evanLine {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.evanProfilPicture {
+  width: 4.3rem;
+  height: 4.3rem;
+  border: 1px solid #2626bd;
+  border-radius: 50%;
+  background-image: url(../../src/assets/icons/ellipse-orange.png);
+}
+
+.evanPhoto {
+  border-radius: 50%;
+  height: 4rem;
+  font-weight: 4rem;
+  border: 1px solid #000080;
+}
+
+.evanNameJob {
+  margin-left: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.names {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: "Arial";
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  color: #ffb548;
+  height: 50%;
+}
+
+.jobs {
+  font-size: 1.15rem;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #ffffff;
+  height: 50%;
+}
+
+.twitterEvan {
+  width: 40%;
+  height: 100%;
+  padding-left: 3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.twitterLogo {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.evanCommentLine {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.2rem;
+  margin: 0;
+}
+
+.comments {
+  font-size: 0.75rem;
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 1rem;
+  height: 10%;
+  margin-bottom: 1.5rem;
+}
+
+.dates {
+  font-size: 0.8rem;
+  font-family: "Open Sans";
+  font-weight: 100;
+  line-height: 1rem;
+  margin-top: 0.2rem;
+  height: 10%;
+  color: #ffffff80;
+}
+
+.jadaGriffin {
+  background-color: rgba(108, 108, 108, 50%);
+  width: 70%;
+  height: 30%;
+  padding: 0.1rem 0.5rem;
+  margin-right: 1rem;
+  border-radius: 0.51rem;
+}
+
+.jadaLine {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.jadaProfilPicture {
+  width: 4.3rem;
+  height: 4.3rem;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  background-image: url(../../src/assets/icons/ellipse-orange.png);
+}
+
+.jadaPhoto {
+  border-radius: 50%;
+  height: 4rem;
+  border: 1px solid #000000;
+  font-weight: 4rem;
+}
+
+.jadaNameJob {
+  margin-left: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.twitterJada {
+  width: 37%;
+  height: 100%;
+  padding-left: 3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jadaCommentLine {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+.aaronWilliams {
+  background-color: rgba(108, 108, 108, 50%);
+  width: 70%;
+  height: 30%;
+  padding: 0.1rem 0.5rem;
+  margin-left: 3.3rem;
+  border-radius: 0.51rem;
+}
+
+.aaronLine {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.aaronProfilPicture {
+  width: 4.3rem;
+  height: 4.3rem;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  background-image: url(../../src/assets/icons/ellipse-orange.png);
+}
+
+.aaronPhoto {
+  border-radius: 50%;
+  height: 4rem;
+  font-weight: 4rem;
+  border: 1px solid #000000;
+}
+
+.aaronNameJob {
+  margin-left: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  width: 60%;
+  height: 100%;
+}
+
+.twitterAaron {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aaronCommentLine {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+.sixth-page {
+  background-color: #080a0b;
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.containerSixth {
+  padding-top: 9rem !important;
+}
+.container1 {
+  padding-top: 10%;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: #ffff00;
+  height: 1px;
+}
+
+#btnSubscribe {
+  font-family: "Open Sans" !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  width: 13rem !important;
+}
+
+.form-control:valid {
+  background-color: #ffffff14 !important;
+  border: none;
+}
+
+::placeholder {
+  color: #ffb548 !important;
+  font-size: 1.1rem !important;
+  font-family: "Open Sans" !important;
+  font-weight: 400 !important;
+  line-height: 1.4rem !important;
+}
+
+/* ============== END HOME PAGE ==================== */
+/* ============== BEGIN P1 VS P2 ======================= */
+.bigContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.playerVsComContainer {
+  width: 70% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.playerChoiceContainer1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+.playerOption {
+  margin-top: 1rem;
+  padding: 0 1rem 0 1rem;
+}
+.player1choices {
+  max-width: 70px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  border-radius: 2rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.resultContainer {
+  width: 30%;
+  background-color: #ffb548;
+  height: fit-content;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.choiced1 {
+  max-width: 70px;
+  height: auto;
+  border-radius: 2rem;
+  transition: 0.1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffb548;
+  padding: 1rem;
+  pointer-events: none;
+}
+.player2choices {
+  max-width: 70px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 1rem;
+  justify-content: center;
+  cursor: pointer;
+}
+.player2choices:hover {
+  background-color: #ffb548;
+  border-radius: 2rem;
+  transition: 0.1s ease-in-out;
+  transform: translateY(-10%);
+}
+
+.rock1 {
+  max-width: 70px;
+  height: auto;
+}
+
+.paper1 {
+  max-width: 70px;
+  height: auto;
+}
+
+.scissors1 {
+  max-width: 70px;
+  height: auto;
+}
+.disabled {
+  pointer-events: none;
+}
+/* ============== END OF P1 VS P2 ======================= */
+
+/* ============== BEGIN GAME HISTORY ======================= */
+.tableContainer.container {
+  width: 70% !important;
+  height: 100% !important;
+  padding: 1rem !important;
+  margin-top: 5% !important;
+  background-color: #ffffff !important;
+}
+
+.table-fixed thead tr th {
+  background-color: #ffb548;
+  border-color: #ff416c;
+}
+
+/* ============== END GAME HISTORY ======================= */
+/* ============== BEGIN OF STATIC PAGE =================== */
+.navbar-nav {
+  display: flex !important;
+  justify-content: space-between !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: 10% !important;
+  padding-left: 1rem !important;
+  background: #00000080 !important;
+  border-top: 3px solid #ffffff !important;
+  border-bottom: 1px solid #403f3f80 !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+  box-sizing: border-box;
+  margin-top: -3px;
+}
+
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  min-height: 100%;
+  width: 30%;
+  color: #ffffff;
+  letter-spacing: 10%;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.navbar-logo:hover {
+  color: #ffb548;
+  border-radius: 1rem;
+  transition: 0.1s ease-in;
+}
+
+.icons-logo {
+  width: 14%;
+  border-radius: 2rem;
+}
+
+.logo-text {
+  margin-left: 1rem;
+}
+
+.logo-text:hover {
+  color: #ffb548 !important;
+  transition: 0.1s ease-in;
+}
+
+.navbar-register {
+  width: 40%;
+  margin-left: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form-link {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  width: 30%;
+  letter-spacing: 0.02rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.form-link:hover {
+  color: #ffb548 !important;
+  transition: 0.1s ease-in;
+}
+
+.usernameNavbar {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  width: 30%;
+  letter-spacing: 0.02rem;
+  text-transform: capitalize;
+  line-height: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.noAccess {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.home-page {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.footer {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.8rem;
+  background: #00000080 !important;
+}
+
+.footer-link:hover {
+  color: #ffb548 !important;
+  transition: 0.1s ease-in;
+  transform: translateY(2%);
+}
+/* ==================== END OF STATIC PAGE ================================== */
+
+/* ================BEGIN CREATE ROOM  =============== */
+.choiceCreateRoom.playerChoiceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.createRoom.playerVsComContainer {
+  flex-direction: column;
+}
+
+.choiceContainer {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0 !important;
+}
+
+.rockRoom {
+  width: 51%;
+  height: 100%;
+}
+
+.paperRoom {
+  width: 51%;
+  height: 100%;
+}
+
+.scissorsRoom {
+  width: 51%;
+  height: 100%;
+}
+
+.player.player1.choices {
+  width: 23%;
+  height: 50%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.player.player1.choices:hover {
+  border-radius: 0.6rem;
+}
+
+.inputCreateRoom.playerChoiceContainer {
+  height: 40% !important;
+  padding: 0;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.roomChoice.choiced {
+  width: 23%;
+  height: 50%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.6rem;
+}
+
+/* ============== end CREATE ROOM ============= */
+/* ================= BEGIN REGISTER PAGE ==========  */
+.registerContainer {
+  position: absolute;
+  background-color: #ffb548;
+  height: 100vh;
+}
+.content {
+  margin: 8%;
+  padding: 4rem 1rem 4rem 1rem;
+  color: #495057;
+  border-radius: 10px;
+}
+.card-title:hover {
+  color: #ffb548;
+}
+
+.btn-color {
+  border-radius: 1.4rem;
+  background-color: #ffb548;
+  font-weight: bold;
+  padding: 0.6rem 2.5rem;
+  margin-top: 1rem;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+  transition: 80ms ease-in;
+}
+.invalid-feedback {
+  color: #ce1212;
+}
+/* ================== END OF REGISTER PAGE ================= */
+
+/* ================ BEGIN P1 VS P2 CLOSED  =============== */
+
+.choiced2 {
+  max-width: 70px;
+  height: auto;
+  border-radius: 2rem;
+  transition: 0.1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffb548;
+  padding: 1rem;
+  pointer-events: none;
+}
+.player2choices2,
+.player1choices2 {
+  max-width: 70px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 1rem;
+  justify-content: center;
+  pointer-events: none;
+}
+
+/* ================ END P1 VS P2 CLOSED  =============== */
+@media (max-width: 1200px) and (max-height: 1200px) {
+  .lower-right-container-input {
+    transform: translateY(-90%) !important;
+  }
+}
+
+@media (max-width: 991.8px) {
+  .content {
+    height: 85vh !important;
+    margin: 7%;
+  }
+  .playerVsComContainer {
+    padding-top: 0 !important;
+  }
+  .playerChoiceContainer1 {
+    margin-top: 2rem !important;
+  }
+  .rock1 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .paper1 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .scissors1 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .btnVCom {
+    font-size: 0.7rem !important;
+  }
+  .courierText {
+    height: 1.8rem !important;
+    font-size: 0.7rem !important;
+    margin-top: 0.2rem !important;
+  }
+  .roomTitle.title {
+    line-height: 1.5rem !important;
+    font-size: 1.2rem !important;
+  }
+  .gameHistoryText {
+    font-size: 0.8rem !important;
+  }
+  .biodata {
+    font-size: 1rem !important;
+    margin-left: 1rem !important;
+  }
+  .lower-right-container {
+    padding-left: 2rem !important;
+  }
+  .labelInput {
+    font-size: 0.9rem !important;
+    line-height: 0 !important;
+    margin-left: 1rem !important;
+  }
+  .inputBiodata {
+    margin-bottom: 0 !important;
+    margin-left: 1rem !important;
+    font-size: 0.9rem !important;
+  }
+  .updateBiodata {
+    margin-top: 0.5rem !important;
+    font-size: 0.6rem !important;
+    line-height: 0.5rem !important;
+    letter-spacing: 0.03rem !important;
+    width: 70% !important;
+  }
+  .pvcGame {
+    height: 26% !important;
+  }
+  .left-container {
+    margin-top: 2rem !important;
+  }
+  .right-container {
+    margin-top: 2rem !important;
+  }
+  .profileTitle {
+    font-size: 0.9rem !important;
+    margin-bottom: 0 !important;
+  }
+  .rounded-circle {
+    width: 20% !important;
+    height: 50% !important;
+  }
+  .playerTitle {
+    font-size: 1.2rem !important;
+  }
+  .result {
+    font-size: 1rem !important;
+    line-height: 1.2rem !important;
+    letter-spacing: 0.06rem !important;
+  }
+  .logo-text {
+    font-size: 1rem !important;
+  }
+  .form-link {
+    font-size: 1rem !important;
+  }
+  .footer-link {
+    font-size: 0.7rem !important;
+  }
+  .text-light {
+    font-size: 0.7rem !important;
+  }
+  .playerChoice {
+    font-size: 1rem !important;
+  }
+  .choiceCreateRoom {
+    margin-top: 0 !important;
+  }
+  .player.player1.choices {
+    width: 15% !important;
+  }
+  .roomChoice.choiced {
+    transform: translateY(0) !important;
+    margin-top: 0.8rem !important;
+    width: 15%;
+    height: 50%;
+  }
+}
+
+@media (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 480px) {
+  .content {
+    height: 85vh !important;
+    margin: 2% !important;
+    margin-top: 8% !important;
+    padding-top: 0 !important;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn.button {
+    width: 70% !important;
+    height: 5% !important;
+    font-size: 0.6rem !important;
+    margin-top: 0 !important;
+  }
+  .btnVCom {
+    font-size: 0.7rem !important;
+  }
+  .form-group.field-holder {
+    margin-top: 0 !important;
+  }
+  .loginImage {
+    margin-top: 5rem !important;
+    height: 30vh !important;
+    width: 30vw !important;
+  }
+  .form-control.input {
+    margin-top: 0 !important;
+  }
+  .title {
+    font-size: 1.5rem !important;
+    margin-top: 1rem !important;
+  }
+  .filled {
+    margin-top: 0 !important;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .courierText {
+    height: 1.8rem !important;
+    font-size: 0.7rem !important;
+    margin-top: 0.2rem !important;
+  }
+  .form-group {
+    font-size: 1rem !important;
+  }
+  .roomTitle.title {
+    line-height: 1.5rem !important;
+    font-size: 1.2rem !important;
+  }
+  .gameHistoryText {
+    font-size: 0.8rem !important;
+  }
+  .biodata {
+    font-size: 1rem !important;
+    margin-left: 1rem !important;
+  }
+  .lower-right-container {
+    padding-left: 2rem !important;
+  }
+  .input {
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+  .labelInput {
+    font-size: 0.9rem !important;
+    line-height: 0 !important;
+    margin-left: 1rem !important;
+  }
+  .inputBiodata {
+    margin-bottom: 0 !important;
+    margin-left: 1rem !important;
+    font-size: 0.9rem !important;
+  }
+  .updateBiodata {
+    margin-top: 0.5rem !important;
+    font-size: 0.6rem !important;
+    line-height: 0.5rem !important;
+    letter-spacing: 0.03rem !important;
+    width: 70% !important;
+  }
+  .pvcGame {
+    height: 26% !important;
+  }
+  .left-container {
+    margin-top: 2rem !important;
+  }
+  .right-container {
+    margin-top: 2rem !important;
+  }
+  .profileTitle {
+    font-size: 0.9rem !important;
+    margin-bottom: 0 !important;
+  }
+  .rounded-circle {
+    width: 20% !important;
+    height: 50% !important;
+  }
+  .playerTitle {
+    font-size: 1.2rem !important;
+  }
+  .result {
+    font-size: 1rem !important;
+    line-height: 1.2rem !important;
+    letter-spacing: 0.06rem !important;
+  }
+  .navbar-logo {
+    width: 40% !important;
+  }
+  .navbar-register {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .logo-text {
+    font-size: 0.72rem !important;
+  }
+  .form-link {
+    font-size: 0.6rem !important;
+    letter-spacing: 0 !important;
+  }
+  .footer-link {
+    font-size: 0.7rem !important;
+  }
+  .text-light {
+    font-size: 0.5rem !important;
+  }
+  .playerChoice {
+    font-size: 1rem !important;
+  }
+  .choiceCreateRoom {
+    margin-top: 0 !important;
+  }
+  .player.player1.choices {
+    width: 15% !important;
+  }
+  .roomChoice.choiced {
+    transform: translateY(0) !important;
+    margin-top: 0.8rem !important;
+    width: 15%;
+    height: 50%;
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello world!</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 class="fs-2 fw-bold text-center text-warning">GAME HISTORY</h1>
+    
+    <table class="table table-fixed">
+      <thead>
+        <tr>
+          <th class="col-xl-3 col-xs-3 text-center">Username</th>
+          <th class="col-xl-2 col-xs-3 text-center">Status</th>
+          <th class="col-xl-3 col-xs-3 text-center">Room Name</th>
+          <th class="col-xl-2 col-xs-3 text-center">Date</th>
+          <th class="col-xl-2 col-xs-3 text-center">Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each games}}
+        <tr>
+          <td class="col-xl-3 col-xs-3 text-center">{{this.username}}</td>
+          <td class="col-xl-2 col-xs-3 text-center">{{this.status}}</td>
+          <td class="col-xl-3 col-xs-3 text-center">{{this.roomName}}</td>
+          <td class="col-xl-2 col-xs-2 text-center">{{this.date}}</td>
+          <td class="col-xl-2 col-xs-2 text-center">{{this.time}}</td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>
