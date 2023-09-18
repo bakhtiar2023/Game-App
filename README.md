@@ -14,6 +14,4 @@ git clone https://github.com/bakhtiar2023/Game-App.git
 
 This project already deploy in [Vercel](https://vercel.com/), open the following link :
 
-```
 [Game App](https://team-1-frontend.vercel.app/)
-```
