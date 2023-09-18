@@ -9,3 +9,11 @@ Clone this project with run the following command :
 ```
 git clone https://github.com/bakhtiar2023/Game-App.git
 ```
+
+## Deployment
+
+This project already deploy in [Vercel](https://vercel.com/), open the following link :
+
+```
+https://team-1-frontend.vercel.app/
+```
